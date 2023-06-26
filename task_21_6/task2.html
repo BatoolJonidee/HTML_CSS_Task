@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        .container {
+            display: flex;
+            height:700px;
+            width:100%;
+        }
+        .container > div{
+            width: calc(100%/2);
+            color: white;
+            text-align: center;
+            padding-top: 300px;
+            font-size: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div style="background-color: orange;">First Part</div>
+        <div style="background-color: blue;">Second Part</div>
+    </div>
+</body>
+</html>
